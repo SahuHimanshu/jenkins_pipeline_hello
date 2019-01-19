@@ -16,3 +16,8 @@ node {
         echo "deploying"
     }
 }
+node {
+    stage('hi'){
+        echo "hi"
+    }
+}
