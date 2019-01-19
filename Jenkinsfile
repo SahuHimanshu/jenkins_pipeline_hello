@@ -21,3 +21,15 @@ node {
         echo "hi"
     }
 }
+
+node {
+    stage('hello'){
+        echo "hello"
+    }
+}
+
+node {
+    stage('you'){
+        echo "you"
+    }
+}
